@@ -32,19 +32,25 @@ A RESTful e-commerce API built with **Django REST Framework (DRF)**. Users can r
 # Clone the repo
 git clone https://github.com/yourusername/drf-ecommerce.git
 cd drf-ecommerce
-
+```
 # Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
-
+```
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # Apply migrations
+```bash
 python manage.py migrate
-
+```
 # Create superuser
+```bash
 python manage.py createsuperuser
-
+```
 # Run development server
+```bash
 python manage.py runserver
+```
